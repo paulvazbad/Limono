@@ -1,0 +1,101 @@
+.Cajas_Amarillo{
+    float: center;
+
+    height: 600px;
+    width:500px;
+    background: #F9BE02;
+    font: normal normal bold 200%/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+  text-align: center;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+}
+.Cajas_Aqua{
+    float: center;
+
+    width: 500px;
+    height: 600px;
+font: normal normal bold 200%/1 "Times New Roman", Times, serif;
+  color: rgba(255,255,255,1);
+    background: #02C8A7;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+}
+.Cajas_Aqua:hover{
+  opacity: 0.6;
+}
+.Cajas_Amarillo:hover{
+  opacity: 0.6;
+
+}
+.row:after {
+  content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+.container2 {
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	  background: #F9BE02; /* column 2 background colour */
+    height: 700px;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+}
+.container1 {
+	float:left;
+	width:100%;
+	position:relative;
+	right:50%;
+	/* column 1 background colour */
+  background: #02C8A7;
+  height: 700px;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+  -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+}
+.col1 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:52%;
+	overflow:hidden;
+  height: 100%;
+  text-align: center;
+  font-size: 200%;
+  vertical-align: middle;
+line-height: 700px;
+
+}
+.col2 {
+	float:left;
+	width:46%;
+	position:relative;
+	left:56%;
+	overflow:hidden;
+  height: 100%;
+  text-align: center;
+  font-size: 200%;
+  vertical-align: middle;
+line-height: 700px;
+}
+.col1:hover{
+  opacity: 0.6;
+}
+.col2:hover{
+  opacity: 0.6;
+
+}
