@@ -7,12 +7,10 @@ import PrimariaInferior from './PrimariaInferior';
 import Header from './Header';
 import DecidirNivel from './DecidirNivel';
 import PrimariaSuperior from './PrimariaSuperior';
-import GameScreen from './GameScreen'
+import GameScreen from './GameScreen';
+import ExamScreen from './ExamScreen';
 //import SignUpPage from './SignUp';
 //import SignInPage from './SignIn';
-
-
-
 import * as routes from '../constants/routes';
 
 
@@ -41,6 +39,10 @@ return (
       <Route
       exact path={routes.GAMES}
       component={GameScreen}
+      />
+      <Route
+      exact path={routes.EXAMS}
+      component={ExamScreen}
       />
       </div>
   </Router>

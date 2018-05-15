@@ -1,20 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import * as routes from '../constants/routes';
-import  '../styles/Card.css';
-import '../styles/Games.css'
-export default class GameScreen extends React.Component{
+import '../styles/Exams.css';
+
+export default class ExamScreen extends React.Component{
   constructor(props) {
     super(props);
     this.state = this.props.location.state;
     this.fondo = this.state.color;
-    this.game = this.state.game;
+    this.exam = this.state.exam;
   }
 
   render(){
     return(
       <div className={this.fondo}>
-      <iframe src={this.game} className='cross'
+      <iframe src={this.exam} className='form'
       />
     </div>
   );
