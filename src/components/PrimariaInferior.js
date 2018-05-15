@@ -9,7 +9,8 @@ export default class PrimariaInferior extends React.Component {
 
       <div className='whole'>
         <Card color='aqua' title='Titulo verde' video = "https://www.youtube.com/embed/bOZT-UpRA2Y"
-        game='https://puzzel.org/en/wordseeker/embed?p=-LCS0J625Hu11RmiND6G'/>
+        game='https://puzzel.org/en/wordseeker/embed?p=-LCS0J625Hu11RmiND6G'
+        />
         <Card color='aqua' title='Titulo verde' video = "https://www.youtube.com/embed/bOZT-UpRA2Y"
         game="https://www.jigsawplanet.com/tinkerpj?rc=ulist&amp;num=4&amp;title=tinkerpj&#39;s%20Last%20Jigsaws"/>
         <Card color='aqua' title='Titulo verde' video = "https://www.youtube.com/embed/bOZT-UpRA2Y"
