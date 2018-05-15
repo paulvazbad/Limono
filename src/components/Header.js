@@ -15,7 +15,7 @@ export default class PrimariaInferior extends React.Component {
 				<nav id="nav">
 					<ul>
 						<li><Link to={routes.LANDING}>Home</Link></li>
-						<li><a href="generic.html">Nosotros</a></li>
+						<li><a href='#nosotros'>Nosotros</a></li>
 						<li><a href="#" class="button special">Sign Up</a></li>
 					</ul>
 				</nav>

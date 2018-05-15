@@ -19,8 +19,10 @@ export default class Card extends React.Component{
       <header class="major">
         <h2>{this.props.title}</h2>
       </header>
-        <iframe width="560" height="315" src={this.props.video} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      <div className='videoDiv'>
+        <iframe src={this.props.video} frameborder="0" width="100%" height="100%" allowfullscreen className='videoStyle'>
         </iframe>
+      </div>
         <Link to={{pathname:routes.EXAMS, state:{ color:'whole yellow', exam:this.props.exam} }}>
         <p class="button yellow">Examen
         </p>
