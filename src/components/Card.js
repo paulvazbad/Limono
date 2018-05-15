@@ -13,7 +13,7 @@ export default class Card extends React.Component{
   }
 
   render(){
-    if(this.props.color=='yellow'){
+    if(this.props.color==='yellow'){
     return(
       <div className='card'>
       <header class="major">
