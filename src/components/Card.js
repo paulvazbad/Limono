@@ -13,16 +13,20 @@ export default class Card extends React.Component{
   }
 
   render(){
-    if(this.props.color=='yellow'){
+    if(this.props.color==='yellow'){
     return(
       <div className='card'>
       <header class="major">
         <h2>{this.props.title}</h2>
       </header>
-        <iframe width="560" height="315" src={this.props.video} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      <div className='videoDiv'>
+        <iframe src={this.props.video} frameborder="0" width="100%" height="100%" allowfullscreen className='videoStyle'>
         </iframe>
+      </div>
+        <Link to={{pathname:routes.EXAMS, state:{ color:'whole yellow', exam:this.props.exam} }}>
         <p class="button yellow">Examen
         </p>
+        </Link>
         <Link to={{pathname:routes.GAMES, state:{color:'whole yellow', game:this.props.game} }}>
         <p class="button yellow">Juegos
         </p>
@@ -38,8 +42,10 @@ export default class Card extends React.Component{
       </header>
         <iframe width="560" height="315" src={this.props.video} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
         </iframe>
+          <Link to={{pathname:routes.EXAMS, state:{ color:'whole', game:this.props.exam} }}>
         <p class="button aqua">Examen
         </p>
+          </Link>
         <Link to={{pathname:routes.GAMES, state:{ color:'whole', game:this.props.game} }}>
         <p class="button aqua">Juegos
         </p>
