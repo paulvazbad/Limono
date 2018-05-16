@@ -16,19 +16,24 @@ import regina from '../images/regina.jpg';
 import maria from '../images/maria.jpg';
 import katia from '../images/katia.jpg';
 
+import infoCar from '../pdf/Infografia-Carbohidratos.pdf';
+import infoLip from '../pdf/Infografia-Lipidos.pdf';
+import infoPro from '../pdf/Infografia-Proteinas.pdf';
+
 export default class LandingPage extends React.Component{
   render(){
     return(
       <div>
       <section id="banner">
         <h2>Hola. Esto es Limono.</h2>
-        <p>Alguna frase insipiradora mamalona aqui/ slogan</p>
+        <p>Aprendiendo super habitos saludables.</p>
         <ul class="actions">
           <Link to={routes.DECIDIRNIVEL}>
             <a href="#" class="button big">Decidir el nivel</a>
             </Link>
         </ul>
       </section>
+
       <section id="nosotros" class="wrapper style2 special">
 				<div class="container" id="nosotros">
 
@@ -49,7 +54,7 @@ export default class LandingPage extends React.Component{
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
 								<img src={maria} alt="" width="92" height="92" />
-								<h4>Mariana Regin</h4>
+								<h4>María Arreguin</h4>
 								<p>Dibujante</p>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
@@ -78,6 +83,42 @@ export default class LandingPage extends React.Component{
 					</section>
         </div>
       </section>
+
+      <section id="sabermas" class="wrapper style3 special">
+        <div class="container">
+  					<header class="major">
+  						<h2>Conoce más:</h2>
+              </header>
+              <div class="12u$">
+								<ul class="actions">
+									<li>
+                  <a href={infoLip} target="_blank"><input value="Infografia Lípidos" class="special big" type="submit"/></a>
+                  </li>
+                  	<li>
+                    <a href={infoPro} target="_blank"><input value="Infografia Proteínas" class="special big" type="submit"/></a>
+                    </li>
+                    	<li>
+                      <a href={infoCar} target="_blank"><input value="Infografia Carbohidratos" class="special big" type="submit"/></a>
+                      </li>
+								</ul>
+							</div>
+  				</div>
+      </section>
+
+      <footer id="footer">
+				<div class="container">
+					<section class="links">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+								<li>Images: <a href='https://www.freepik.com/free-vector/seamless-fruit-pattern_713157.htm'>Designed by Freepik</a></li>
+                <li>Made with ❤️ by  <a href='https://www.github.com/paulvazbad'>Paul Vazquez</a> </li>
+              </ul>
+
+						</div>
+          </section>
+        </div>
+      </footer>
 
       </div>
       //El codigo de la Landing page

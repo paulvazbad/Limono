@@ -791,7 +791,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #02C8A7;
+		background-color:#32DC96;
 		border-radius: 30px;
 		border: 0;
 		color: #ffffff !important;
@@ -1121,7 +1121,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #3cadd4;
+			background-color: #32DC96;
 			color: #ffffff;
 		}
 

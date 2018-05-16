@@ -13,13 +13,15 @@ export default class DecidirNivel extends React.Component {
     <div className='container1'>
       <Link to={routes.PRIMARIAINF}>
         <div className='col1' >
-          <p> Primaria inferior y Kinder </p>
+          <p> Primaria Menor
+              (5-8 años)</p>
         </div>
       </Link>
 
       <Link to={routes.PRIMARIASUP}>
         <div className='col2' >
-          <p> Primaria Superior</p>
+          <p> Primaria Mayor
+              (8-12 años)</p>
         </div>
       </Link>
       </div>

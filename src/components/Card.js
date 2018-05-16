@@ -16,9 +16,9 @@ export default class Card extends React.Component{
     if(this.props.color==='yellow'){
     return(
       <div className='card'>
-      <header class="major">
-        <h2>{this.props.title}</h2>
-      </header>
+      <div className='fonth3'>
+        <h3>{this.props.title}</h3>
+      </div>
       <div className='videoDiv'>
         <iframe src={this.props.video} frameborder="0" width="100%" height="100%" allowfullscreen className='videoStyle'>
         </iframe>
