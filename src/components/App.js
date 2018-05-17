@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Route, BrowserRouter as Router } from 'react-router-dom';
+import {  HashRouter,Route, BrowserRouter as Router } from 'react-router-dom';
 
 import Navigation from './Navigation';
 import LandingPage from './LandingPage';
@@ -16,7 +16,7 @@ import * as routes from '../constants/routes';
 
 const App = () => {
 return (
-  <Router>
+  <HashRouter>
 
   <div>
   <Header />
@@ -45,7 +45,7 @@ return (
       component={ExamScreen}
       />
       </div>
-  </Router>
+  </HashRouter>
 );
 }
 export default App;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {HashLink as Link } from 'react-router-hash-link';
 import * as routes from '../constants/routes';
 import  '../styles/Card.css';
 import  '../styles/skel.css';
@@ -11,12 +11,12 @@ export default class PrimariaInferior extends React.Component {
     return(
 
       <header id="header">
-				<h1><li><Link to={routes.LANDING}>Limono</Link></li></h1>
+				<h1><Link to={routes.LANDING}>Limono</Link></h1>
 				<nav id="nav">
 					<ul>
 						<li><Link to={routes.LANDING}>Home</Link></li>
-						<li><a href='#nosotros'>Nosotros</a></li>
-						<li><a href="#" class="button special">Sign Up</a></li>
+						<li><Link to={routes.NOSOTROS}>Nosotros</Link></li>
+            <li><Link to={routes.SABERMAS}>Conoce más</Link></li>
 					</ul>
 				</nav>
 			</header>

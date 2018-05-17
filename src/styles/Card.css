@@ -16,11 +16,12 @@
 
 /* Add some padding inside the card container */
 .container {
-    padding: 2px 16px;
+    padding: 2px 10px;
 }
 .whole{
   background-color: #02c8a7;
-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23010202' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23010202' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+background-image: url("../images/restaurant_icons2.png");
     margin:0;
     top:0;
     left:0;
@@ -30,8 +31,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
     text-align: center;
 }
 .whole.yellow{
-  background-color: #f9be02;
-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23010202' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  -background-color: #f9be02;
+-background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23010202' fill-opacity='0.15' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+background-image: url("../images/restaurant_iconsy2.png");
     margin:0;
     top:0;
     left:0;
@@ -45,6 +47,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
   height:0px;
   position:relative;
   padding-bottom:56.250%;
+  margin-bottom: 3%;
+
 }
 .videoStyle{
   width:100%;
@@ -53,4 +57,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0
   left:0px;
   top:0px;
   overflow:hidden;
+}
+.fonth3{
+    color: #858585;
+    font-size: 1.35em;
+    line-height: 1.5em;
+    font-weight: 700;
+    line-height: 1em;
 }
