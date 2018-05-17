@@ -20,7 +20,7 @@ export default class Card extends React.Component{
         <h3>{this.props.title}</h3>
       </div>
       <div className='videoDiv'>
-        <iframe src={this.props.video} frameborder="0" width="100%" height="100%" allowfullscreen className='videoStyle'>
+        <iframe src={this.props.video} frameborder="0" width="100%" height="100%" allowFullScreen className='videoStyle'>
         </iframe>
       </div>
         <Link to={{pathname:routes.EXAMS, state:{ color:'whole yellow', exam:this.props.exam} }}>
