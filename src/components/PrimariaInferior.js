@@ -17,7 +17,7 @@ export default class PrimariaInferior extends React.Component {
   render(){
     return(
       <div className='whole'>
-      <header class="major">
+      <header class="major" style={{marginBottom: 0}}>
         <h2>Primaria Menor</h2>
       </header>
       {this.renderCards()}

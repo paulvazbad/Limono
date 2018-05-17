@@ -14,6 +14,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+body, input, select, textarea {
+  color: #444;
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  line-height: 1.65em;
+}
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -658,6 +667,7 @@ button.close {
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
+  text-align: center;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -665,6 +675,8 @@ button.close {
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  align-items: center;
+  text-align: center;
 }
 .modal-body {
   position: relative;
