@@ -30,7 +30,7 @@ export default class LandingPage extends React.Component{
         <p>Aprendiendo super habitos saludables.</p>
         <ul class="actions">
           <Link to={routes.DECIDIRNIVEL}>
-            <a href="#" class="button big">Decidir el nivel</a>
+            <a href="#" class="button big">Selecciona tu nivel</a>
             </Link>
         </ul>
       </section>
@@ -39,7 +39,7 @@ export default class LandingPage extends React.Component{
 				<div class="container" id="nosotros">
 
           <header class="major">
-						<h2>Nosotros:</h2>
+						<h2>Nosotros</h2>
 						<p>Somos una empresa de jóvenes futuras nutriólogas que buscamos
             promover un estilo de vida sano, una correcta nutrición en los niños y con esto ayudar a su óptimo desarrollo.</p>
             <img src={logo} alt="" width="298" height="170"/>
@@ -52,7 +52,7 @@ export default class LandingPage extends React.Component{
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src={caro} alt="" width="92" height="92"/>
 								<h4>Carolina Vazquez</h4>
-								<p>Instructor</p>
+								<p>Instructora</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
 								<img src={maria} alt="" width="92" height="92" />
@@ -62,7 +62,7 @@ export default class LandingPage extends React.Component{
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
 								<img src={regina} alt=""  width="92" height="92" />
 								<h4>Regina Flores</h4>
-								<p>Diseñador</p>
+								<p>Diseñadora</p>
 							</section>
               <section class="3u 6u(medium) 12u$(xsmall) profile">
                 <img src={ale} alt=""  width="92" height="92" />
@@ -89,7 +89,7 @@ export default class LandingPage extends React.Component{
       <section id="sabermas" class="wrapper style3 special">
         <div class="container">
   					<header class="major">
-  						<h2>Conoce más:</h2>
+  						<h2>Conoce más</h2>
               </header>
               <div class="12u$">
 								<ul class="actions">
