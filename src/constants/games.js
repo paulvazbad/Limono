@@ -17,9 +17,9 @@ export const listaActividadesMen=[
   {titulo:'Cuento 1'
   ,video:"https://streamable.com/s/ilktj/kqzvjq",
   game:'https://puzzel.org/en/wordseeker/embed?p=-LC_s22NEY-Vqe_QRPl6',
-exam:'https://docs.google.com/forms/d/1cmfzm7QgMduw56SrSjKWuCG4xFdzSgvzA3Maj4f3ve0/edit'},
+exam:'https://docs.google.com/forms/d/e/1FAIpQLSfh2SDJBC6smbPZlKGYKQ_qQolL4NAObKArCtGXCJzYVEueNQ/viewform?embedded=true'},
 {titulo:'Cuento 2'
 ,video:"https://streamable.com/s/2msnh/ihfauv",
 game:'https://puzzel.org/en/crossword/embed?p=-LC_wssVXACOgngDR3MB',
-exam:'https://docs.google.com/forms/d/1B1R2rJqhccqjRUojNEpkGHm2dcF9HfTnvJNhes_k4OU/edit'}
+exam:'https://docs.google.com/forms/d/e/1FAIpQLSdSoYXjT-cx-2AcIZY9A44LN4oJYf4fKqHznY6MQIcNq_9yqg/viewform?embedded=true'}
 ]

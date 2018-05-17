@@ -42,7 +42,7 @@ export default class Card extends React.Component{
       </header>
         <iframe width="560" height="315" src={this.props.video} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
         </iframe>
-          <Link to={{pathname:routes.EXAMS, state:{ color:'whole', game:this.props.exam} }}>
+          <Link to={{pathname:routes.EXAMS, state:{ color:'whole', exam:this.props.exam} }}>
         <p class="button aqua">Examen
         </p>
           </Link>
