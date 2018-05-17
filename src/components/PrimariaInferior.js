@@ -16,7 +16,6 @@ export default class PrimariaInferior extends React.Component {
   }
   render(){
     return(
-
       <div className='whole'>
       <header class="major">
         <h2>Primaria Menor</h2>

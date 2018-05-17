@@ -15,6 +15,7 @@ import marianat from '../images/mariana.jpg';
 import regina from '../images/regina.jpg';
 import maria from '../images/maria.jpg';
 import katia from '../images/katia.jpg';
+import logo from '../images/logo.jpg';
 
 import infoCar from '../pdf/Infografia-Carbohidratos.pdf';
 import infoLip from '../pdf/Infografia-Lipidos.pdf';
@@ -41,6 +42,7 @@ export default class LandingPage extends React.Component{
 						<h2>Nosotros:</h2>
 						<p>Somos una empresa de jóvenes futuras nutriólogas que buscamos
             promover un estilo de vida sano, una correcta nutrición en los niños y con esto ayudar a su óptimo desarrollo.</p>
+            <img src={logo} alt="" width="298" height="170"/>
             <p> Con esta página web y sus múltiples actividades didácticas
             los niños podrán aprender y divertirse mientras aprenden sobre salud y nutrición.</p>
 					</header>
